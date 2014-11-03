@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff">
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:inputType="textEmailSubject"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        style="@style/ph_border_text"
+        android:hint="E-Mail"
+        android:layout_marginTop="4dp"/>
+
+    <EditText
+        android:id="@+id/txtName"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        style="@style/ph_border_text"
+        android:hint="Name"
+        android:layout_marginTop="4dp"/>
+
+    <EditText
+        android:id="@+id/txtSurname"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        style="@style/ph_border_text"
+        android:hint="Surname"
+        android:layout_marginTop="4dp"/>
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        style="@style/ph_border_text"
+        android:hint="Password"
+        android:layout_marginTop="4dp"/>
+
+    <EditText
+        android:id="@+id/txtPassApproval"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        style="@style/ph_border_text"
+        android:hint="Repeat Your Password"
+        android:layout_marginTop="4dp"/>
+
+    <EditText
+        android:id="@+id/txtBirthDate"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        style="@style/ph_border_text"
+        android:hint="Birth Date"
+        android:layout_marginTop="4dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Register"
+        android:id="@+id/btnRegister"
+        style="@style/ph_border_button" />
+
+</LinearLayout>

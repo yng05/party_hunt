@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:id="@+id/lytSignin"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/txtEmail"
+        style="@style/ph_border_text"
+        android:hint="E-Mail"
+        android:layout_marginTop="4dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txtPass"
+        android:layout_gravity="center_horizontal"
+        style="@style/ph_border_text"
+        android:hint="Password"
+        android:layout_marginTop="4dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Sign-in"
+        android:id="@+id/btnSignin"
+        style="@style/ph_border_button"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Register"
+        android:id="@+id/btnRegister"
+        style="@style/ph_text_button" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="I forgot my password, send me new one"
+        android:id="@+id/btnNewPass"
+        style="@style/ph_text_button" /></LinearLayout>
+
+</RelativeLayout>

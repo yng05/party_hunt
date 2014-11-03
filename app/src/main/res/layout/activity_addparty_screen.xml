@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff">
+
+    <EditText
+        android:id="@+id/txtName"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:layout_gravity="center_horizontal"
+        style="@style/ph_border_text"
+        android:hint="Name of the Party"
+        android:layout_marginTop="4dp"
+        />
+
+    <EditText
+        android:id="@+id/txtDate"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        style="@style/ph_border_text"
+        android:layout_marginTop="4dp"/>
+
+    <EditText
+        android:id="@+id/txtStartTime"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        style="@style/ph_border_text"
+        android:layout_marginTop="4dp"/>
+
+    <EditText
+        android:id="@+id/txtEndTime"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        style="@style/ph_border_text"
+        android:hint="End Time"
+        android:layout_marginTop="4dp"/>
+
+    <EditText
+        android:id="@+id/txtDetails"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        style="@style/ph_border_text"
+        android:hint="Further Details"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Tap on icons to add picture"
+        android:id="@+id/textView" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingLeft="20dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/photo" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/imageView2"
+            android:background="@drawable/photo"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/imageView3"
+            android:background="@drawable/photo" />
+        </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Publish"
+        android:id="@+id/btnAdd"
+        style="@style/ph_border_button"/>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/AppTheme.PhActionBar</item>
+
+    </style>
+
+    <style name="AppTheme.PhActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#fff0bc16</item>
+        <item name="android:titleTextStyle">@style/AppTheme.PhActionBar.Text</item>
+
+    </style>
+
+    <style name="AppTheme.PhActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="ph_border_button">
+        <item name="android:textSize">13dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:textColor">#fff4fdff</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:background">@drawable/borderbutton</item>
+    </style>
+
+    <style name="ph_text_button">
+        <item name="android:textSize">10dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:textColor">#fff0bc16</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="ph_border_text">
+        <item name="android:textSize">13dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:textColor">#fff0bc16</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@drawable/bordertext</item>
+    </style>
+</resources>
